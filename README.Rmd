@@ -13,17 +13,19 @@ knitr::opts_chunk$set(
 )
 ```
 
-# groupMissingCount
+# groupMissingCount Package
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-The goal of `groupMissingCount` is to provide an easy-to-use function that counts missing values in each column of a dataframe grouped by a specified column. This package simplifies the process of analyzing missing data by groups using `dplyr` functions, making it ideal for data exploration and preliminary data analysis.
+## Description
+
+`groupMissingCount` provides an easy-to-use function that counts missing values in each column of a dataframe grouped by a specified column. This package simplifies the process of analyzing missing data by groups using `dplyr` functions, making it ideal for data exploration and preliminary data analysis.
 
 ## Installation
 
-You can install the development version of groupMissingCount from [GitHub](https://github.com/) with:
+You can install the development version of `groupMissingCount` from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
