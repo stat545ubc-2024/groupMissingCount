@@ -1,0 +1,13 @@
+Package: groupMissingCount
+Title: Count missing values for all columns by group
+Version: 0.1.0
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The goal of groupMissingCount is to provide an easy-to-use function that counts missing values in each column of a dataframe grouped by a specified column. This package simplifies the process of analyzing missing data by groups using dplyr functions, making it ideal for data exploration and preliminary data analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    dplyr
